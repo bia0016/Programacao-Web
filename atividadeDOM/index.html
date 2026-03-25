@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+    <title>Atividade DOM - JS</title>
+</head>
+<body>
+    <div class="conteudo">
+        <h1>Atividade DOM - JavaScript</h1>
+        <hr>
+        <h2>1. Contador de cliques</h2>
+        <button id="botao1">incrementa</button>
+        <button id="botao2">decrementa</button>
+        <p id="p1"></p>
+        <hr>
+        <h2>2. Texto dinâmico</h2>
+        <input type="text" id="input" placeholder="Digite aqui...">
+        <p id="p2"></p>
+        <p id="p3"></p>
+        <hr>
+        <h2>3. Adicionar lista</h2>
+        <select id="menuSelecao" onchange="funcao()">
+            <option value="" selected disabled hidden>Selecione uma lista</option>
+            <option value="opcao1">lista ordenada</option>
+            <option value="opcao2">lista não ordenada</option>
+        </select>
+        <ol id="ol" style="color:white;"></ol><!--lista ordenada-->
+        <ul id="ul" style="color:white;"></ul><!--lista desordenada-->
+        <hr>
+        <h2>4. Resetar</h2>
+        <button id="botao3" onclick="limpar()">limpar página</button>
+        <p id="p4"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
