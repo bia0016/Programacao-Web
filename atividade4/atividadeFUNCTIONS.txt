@@ -1,0 +1,17 @@
+Você deverá refatorar e evoluir o código, atendendo aos seguintes requisitos:
+
+1 - Converta todas as funções tradicionais para funções de seta (arrow functions):
+atualizarValor;
+calcularAbastecimento;
+formatarMoeda;
+Função anônima do keydown.
+
+2 - Organização e limpeza do código:
+Substitua o switch por uma estrutura mais moderna.
+
+3 - Validação de dados:
+Melhore a validação: Exibir alertas caso o campo esteja vazio, tratar valores negativos e garantir que apenas números válidos sejam processados.
+
+4 - Aplique um pouco de CSS para melhorar a qualidade visual da página.
+
+Envie a atividade anexando o link do github ou os arquivos criados.
